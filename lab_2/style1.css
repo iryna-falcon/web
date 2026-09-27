@@ -1,0 +1,12 @@
+body {
+    background-color: lightgray;
+    color: darkgray;
+}
+
+a {
+    color: brown;
+}
+
+h1, h2 {
+    text-align: center;
+}

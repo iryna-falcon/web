@@ -1,0 +1,33 @@
+body {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+a {
+    color: #4CAF50;
+}
+
+.img-left {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.img-right {
+    float: right;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.par1 {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.par2 {
+    font-style: italic;
+}
+
+.blue-word {
+    color: blue;
+}

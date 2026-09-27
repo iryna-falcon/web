@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <title>Третя лабораторна</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Лабораторна робота № 1</h1>
+    <h2>Робота з формами</h2>
+    <h2>Виконала студентка групи КН-32 Соколова І.В.</h2>
+    <a href="default.html">На головну</a>
+
+    <h3>Завдання</h3>
+    <p>
+        Необхідно розробити форму для реєстрації студента у веб-системі. Необхідно заповнити наступні данні:
+    </p>
+    <ul>
+        <li>
+            основні дані про студента, включають ПІБ, назву групи (вибирається із списку), форму навчання (бюджет або контракт), коротку інформацію про студента, електрона адреса студента;
+        </li>
+        <li>
+            особисті дані студента, включають дані паспорта, ідентифікаційний код, рік народження, стать.
+        </li>
+    </ul>
+
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Основні дані про студента</legend>
+
+            <label>
+                ПІБ
+                <input id="fullname" type="text">
+            </label>
+
+            <label>
+                Назва групи
+                <select>
+                    <option>КН-31</option>
+                    <option>КН-32</option>
+                    <option>АнД-31</option>
+                </select>
+            </label>
+
+            <p>
+                Форма навчання
+                <br>
+                <label>Бюджет <input id="budget" type="radio" name="study_form"></label>
+                <label>Контракт <input id="contract" type="radio" name="study_form"></label>
+            </p>
+
+            <label>
+                Коротка інформація про студента
+                <textarea rows="4" cols="50"></textarea>
+            </label>
+            <br><br>
+            <label>
+                Електронна адреса
+                <input id="email" type="email">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Особисті дані студента</legend>
+
+            <label>
+                Дані паспорта
+                <input id="passport" type="text">
+            </label>
+
+            <label>
+                Ідентифікаційний код
+                <input id="id_code" type="text">
+            </label>
+
+            <label>
+                Рік народження
+                <input id="birth_year" type="number" min="1950" max="2010">
+            </label>
+
+            <p>
+                Стать
+                <br>
+                <label>Чоловіча <input id="male" type="radio" name="sex"></label>
+                <label>Жіноча <input id="female" type="radio" name="sex"></label>
+            </p>
+        </fieldset>
+
+        <br>
+        <button type="submit">Відправити</button>
+    </form>
+
+</body>
+</html>
