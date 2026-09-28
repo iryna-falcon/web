@@ -139,7 +139,7 @@ body {
     transition: opacity 0.4s ease-in-out;
 }
 
-    .hover-text h3 {
+    .hover-text h2 {
         font-size: 18px;
         font-weight: bold;
         color: var(--color-text-dark);
