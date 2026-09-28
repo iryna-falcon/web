@@ -1,0 +1,17 @@
+:root {
+    --color-bg: #F9F6F0;
+    --color-menu: #2D4A3E;
+    --color-header: #4A755D;
+    --color-extra: #C5D1C2;
+    --color-footer: #1C2E26;
+    --color-text-dark: #2D4A3E;
+    --color-text-light: #F9F6F0;
+    
+    --font-family-main: Arial, sans-serif;
+    
+    --width: 1440px;
+    --width-sidebar: 390px;
+    --width-main: 1050px;
+    --height-header: 150px;
+    --img-size: 200px;
+}
