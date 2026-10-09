@@ -164,3 +164,18 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.content-list {
+    list-style-type: circle !important;
+    list-style-position: inside !important;
+    padding-left: 20px !important;
+    margin-top: 10px !important;
+}
+
+    .content-list li {
+        display: list-item !important;
+        list-style-type: circle !important;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 5px;
+    }
