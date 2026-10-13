@@ -28,6 +28,12 @@ a {
     font-style: italic;
 }
 
+.par2 span {
+    color: red;
+    text-decoration: underline;
+}
+
 .blue-word {
     color: blue;
 }
+

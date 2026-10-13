@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2 - Книги та Таблиця</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="main-menu">
+        <a href="index.html">Головна</a>
+        <a href="task1.html">Завдання 1</a>
+        <a href="task2.html" class="active">Завдання 2</a>
+    </nav>
+
+    <main class="b-main">
+        <section class="task-section">
+            <h2>Виконання Завдання 2.1</h2>
+            <div class="form-group">
+                <label for="genreSelect">Оберіть жанр:</label>
+                <select id="genreSelect">
+                    <option value="Фантастика">Фантастика</option>
+                    <option value="Детектив">Детектив</option>
+                    <option value="Наукова література">Наукова література</option>
+                    <option value="Роман">Роман</option>
+                    <option value="Історія">Історія</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bookTitle">Назва книги:</label>
+                <input type="text" id="bookTitle" placeholder="Введіть назву книги">
+            </div>
+            <div class="form-group">
+                <label for="bookAuthor">Автор (Enter):</label>
+                <input type="text" id="bookAuthor" placeholder="Введіть автора і натисніть Enter" onkeydown="handleAuthorKeypress(event)">
+            </div>
+            <div id="booksResult" class="result-box"></div>
+        </section>
+
+        <section class="task-section">
+            <h2>Виконання Завдання 2.2</h2>
+            <p>Вихідна таблиця:</p>
+            <table id="myTable" border="1" cellpadding="5" style="border-collapse: collapse; margin-bottom: 10px;">
+                <tr>
+                    <td>Яблуко</td>
+                    <td>Банан</td>
+                    <td>Апельсин</td>
+                </tr>
+                <tr>
+                    <td>Програмування</td>
+                    <td>Алгоритми</td>
+                    <td>Бази даних</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    <td>JavaScript</td>
+                </tr>
+            </table>
+            <button class="b-button" onclick="convertTableToLists()">Перетворити у список списків</button>
+            <div id="tableResult" class="result-box"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

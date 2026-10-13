@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f1e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.main-menu {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #6676af;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-menu a:hover, .main-menu a.active {
+    background-color: #6676af;
+    color: white;
+}
+
+.b-header {
+    text-align: center;
+    background-color: #b5c7d3;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.b-div-zadanie {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.task-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    padding: 6px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.b-button {
+    background-color: #6676af;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+}
+
+.b-button:hover {
+    background-color: #525f91;
+}
+
+.result-box {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-left: 4px solid #6676af;
+    border-radius: 4px;
+}
+
+@media (max-width: 440px) {
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .form-group input, .form-group select {
+        width: 100%;
+    }
+    .main-menu a {
+        display: block;
+        margin: 5px 0;
+    }
+}
